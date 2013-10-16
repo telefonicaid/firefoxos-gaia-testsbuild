@@ -1,0 +1,24 @@
+{"homescreens": [
+  [
+    ["apps", "communications", "dialer"],
+    ["apps", "sms"],
+    ["apps", "browser"],
+    ["apps", "camera"],
+    ["apps", "fm"]
+  ], [
+    ["external-apps", "marketplace.firefox.com"],
+    ["external-apps", "gamepack"],
+    ["apps", "gallery"],
+    ["apps", "costcontrol"],
+    ["apps", "settings"],
+    ["apps", "email"],
+    ["apps", "calendar"],
+    ["apps", "communications", "contacts"],
+    ["external-apps", "tuenti"],
+    ["external-apps", "mimovistar"]
+  ], [
+    ["apps", "music"],
+    ["apps", "video"],
+    ["apps", "clock"]
+  ]
+]}

@@ -1,0 +1,82 @@
+{
+  "apps": {
+    "Twitter":
+      {
+        "origin": "https://mobile.twitter.com",
+        "manifestURL": "https://mobile.twitter.com/cache/twitter.webapp",
+        "installOrigin": "https://marketplace.firefox.com"
+      },
+    "Facebook":
+      {
+        "origin": "http://m.facebook.com",
+        "manifestURL": "http://m.facebook.com/openwebapp/manifest.webapp",
+        "installOrigin": "https://marketplace.firefox.com"
+      },
+    "Wikipedia":
+      {
+        "origin": "https://bits.wikimedia.org",
+        "manifestURL": "https://bits.wikimedia.org/WikipediaMobileFirefoxOS/manifest.webapp",
+        "installOrigin": "https://marketplace.firefox.com"
+      },
+    "Accuweather":
+      {
+        "origin": "http://m.accuweather.com",
+        "manifestURL": "http://m.accuweather.com/mozilla.webapp",
+        "installOrigin": "https://marketplace.firefox.com"
+      },
+    "Calculator":
+      {
+        "origin": "app://calculator",
+        "installOrigin": "https://marketplace.firefox.com",
+        "manifestURL": "https://marketplace.firefox.com/app/9f96ce77-5b2d-42ca-a0d9-10a933dd84c4/manifest.webapp"
+      },
+    "Poppit":
+      {
+        "origin": "app://poppit",
+        "installOrigin": "https://marketplace.firefox.com",
+        "manifestURL": "https://marketplace.firefox.com/app/d37cb5ed-525a-408e-a7cf-ec848064e041/manifest.webapp"
+      }
+  },
+  "operators": [
+    {
+      "id": "movistar",
+      "mcc-mnc": [
+        "214-001",
+        "214-002",
+        "214-007"
+      ],
+      "apps": [
+        {
+          "id": "Calculator",
+          "screen": 0,
+          "location": 2
+        },
+        {
+          "id": "Wikipedia",
+          "screen": 1,
+          "location": 2
+        }
+      ],
+      "support_contacts": "resources/support_contacts_movistar.json",
+      "default_contacts": "resources/contacts_movistar.json",
+      "ringtone": "resources/Movistar_Mid_ABR_128kbps.ogg",
+      "wallpaper": "resources/customize.jpg"
+    },
+    {
+      "id": "o2",
+      "mcc-mnc": [
+        "215-023"
+      ],
+      "apps": [
+        {
+          "id": "Poppit",
+          "screen": 0,
+          "location": 2
+        },
+        {
+          "id": "Twitter"
+        }
+      ]
+    }
+  ]
+}
