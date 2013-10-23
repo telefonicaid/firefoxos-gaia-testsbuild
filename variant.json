@@ -43,6 +43,7 @@
       "mcc-mnc": [
         "214-001",
         "214-002",
+        "214-005",
         "214-007"
       ],
       "apps": [
@@ -50,6 +51,11 @@
           "id": "Calculator",
           "screen": 0,
           "location": 2
+        },
+        {
+          "id": "Poppit",
+          "screen": 0,
+          "location": 3
         },
         {
           "id": "Wikipedia",
@@ -63,20 +69,34 @@
       "wallpaper": "resources/customize.jpg"
     },
     {
-      "id": "o2",
+      "id": "venezuela",
       "mcc-mnc": [
-        "215-023"
+        "734-004"
       ],
       "apps": [
         {
-          "id": "Poppit",
+          "id": "Twitter",
           "screen": 0,
           "location": 2
         },
         {
-          "id": "Twitter"
+          "id": "Facebook",
+          "screen": 0,
+          "location": 3
+        },
+        {
+          "id": "Accuweather",
+          "screen": 1,
+          "location": 3
+        },
+        {
+          "id": "Wikipedia",
+          "screen": 1,
+          "location": 2
         }
-      ]
+      ],
+      "ringtone": "resources/ringer_dream_theme.ogg",
+      "wallpaper": "resources/customize2.png"
     }
   ]
 }
