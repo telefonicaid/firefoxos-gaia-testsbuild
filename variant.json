@@ -49,17 +49,17 @@
       "apps": [
         {
           "id": "Calculator",
-          "screen": 0,
+          "screen": 1,
           "location": 2
         },
         {
           "id": "Poppit",
-          "screen": 0,
+          "screen": 1,
           "location": 3
         },
         {
           "id": "Wikipedia",
-          "screen": 1,
+          "screen": 2,
           "location": 2
         }
       ],
@@ -76,22 +76,22 @@
       "apps": [
         {
           "id": "Twitter",
-          "screen": 0,
+          "screen": 1,
           "location": 2
         },
         {
           "id": "Facebook",
-          "screen": 0,
+          "screen": 1,
           "location": 3
         },
         {
           "id": "Accuweather",
-          "screen": 1,
+          "screen": 2,
           "location": 3
         },
         {
           "id": "Wikipedia",
-          "screen": 1,
+          "screen": 2,
           "location": 2
         }
       ],
