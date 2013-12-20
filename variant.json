@@ -66,6 +66,7 @@
       "support_contacts": "resources/support_contacts_movistar.json",
       "default_contacts": "resources/contacts_movistar.json",
       "ringtone": "resources/Movistar_Mid_ABR_128kbps.ogg",
+      "ringtone.name": "Tono Movistar",
       "wallpaper": "resources/customize.jpg"
     },
     {
@@ -96,6 +97,7 @@
         }
       ],
       "ringtone": "resources/ringer_dream_theme.ogg",
+      "ringtone.name": "Tono Vivo",
       "wallpaper": "resources/customize2.png"
     }
   ]
