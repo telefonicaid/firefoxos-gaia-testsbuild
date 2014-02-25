@@ -69,7 +69,10 @@
         "path": "resources/Movistar_Mid_ABR_128kbps.ogg",
         "name": "Tono Movistar"
       },
-      "wallpaper": "resources/customize.jpg"
+      "wallpaper": "resources/customize.jpg",
+      "keyboard": "resources/keyboard_movistar.json",
+      "network_type": "resources/network_type_movistar.json",
+      "known_networks": "resources/known_networks_movistar.json"
     },
     {
       "id": "venezuela",
