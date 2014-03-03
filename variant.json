@@ -35,7 +35,17 @@
         "origin": "app://poppit",
         "installOrigin": "https://marketplace.firefox.com",
         "manifestURL": "https://marketplace.firefox.com/app/d37cb5ed-525a-408e-a7cf-ec848064e041/manifest.webapp"
-      }
+      },
+    "operatorResourcesLatam":
+      {
+        "installOrigin": "https://owdstore.hi.inet",
+        "manifestURL": "https://owdstore.hi.inet/operRes/latam/operatorResourcesLatam.webapp"
+      },
+    "operatorResourcesSpain":
+      {
+        "installOrigin": "https://owdstore.hi.inet",
+        "manifestURL": "https://owdstore.hi.inet/operRes/spain/operatorResourcesSpain.webapp"
+      }      
   },
   "operators": [
     {
@@ -61,7 +71,12 @@
           "id": "Wikipedia",
           "screen": 2,
           "location": 0
-        }
+        },
+        {
+          "id": "operatorResourcesLatam",
+          "screen": 2,
+          "location": 1
+        }        
       ],
       "support_contacts": "resources/support_contacts_movistar.json",
       "default_contacts": "resources/contacts_movistar.json",
