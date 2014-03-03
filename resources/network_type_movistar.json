@@ -18,5 +18,5 @@
   "cdma": "2G CDMA",
   "evdo": "3G CDMA",
   "wcdma/gsm/cdma/evdo": "2G-3G GSM/CDMA auto",
-   "data_sprite": "app://operatorresources/resources/quick_settings/images/data-sprite-latam.png"
+  "data_sprite": "app://operatorresources/resources/quick_settings/images/data-sprite-latam.png"
 }
