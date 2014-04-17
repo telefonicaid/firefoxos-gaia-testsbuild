@@ -1,0 +1,8 @@
+{
+  "poweron": {
+    "image":"resources/power/latam_power_on.png"
+  },
+  "poweroff": {
+    "video":"resources/power/latam_power_off.mp4"
+  }
+}

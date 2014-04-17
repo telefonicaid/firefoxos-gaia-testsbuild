@@ -85,9 +85,20 @@
         "name": "Tono Movistar"
       },
       "wallpaper": "resources/customize.jpg",
+      "power": {
+        "poweron": {
+          "video": "power/carrier_power_off.mp4"
+        },
+        "poweroff": {
+          "image": "power/mozilla.png"
+        }
+      },
       "keyboard": "resources/keyboard_movistar.json",
       "network_type": "resources/network_type_movistar.json",
-      "known_networks": "resources/known_networks_movistar.json"
+      "known_networks": "resources/known_networks_movistar.json",
+      "data_ftu": true,
+      "nfc": "resources/nfc_movistar.json",
+      "sms": "resources/sms_movistar.json"
     },
     {
       "id": "venezuela",
