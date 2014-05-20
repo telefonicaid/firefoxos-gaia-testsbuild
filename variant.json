@@ -30,12 +30,6 @@
         "installOrigin": "https://marketplace.firefox.com",
         "manifestURL": "https://marketplace.firefox.com/app/9f96ce77-5b2d-42ca-a0d9-10a933dd84c4/manifest.webapp"
       },
-    "Poppit":
-      {
-        "origin": "app://poppit",
-        "installOrigin": "https://marketplace.firefox.com",
-        "manifestURL": "https://marketplace.firefox.com/app/d37cb5ed-525a-408e-a7cf-ec848064e041/manifest.webapp"
-      },
     "operatorResourcesLatam":
       {
         "installOrigin": "https://owdstore.hi.inet",
@@ -61,11 +55,6 @@
           "id": "Calculator",
           "screen": 1,
           "location": 2
-        },
-        {
-          "id": "Poppit",
-          "screen": 1,
-          "location": 3
         },
         {
           "id": "Wikipedia",
