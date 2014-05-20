@@ -87,7 +87,7 @@
       "wallpaper": "resources/customize.jpg",
       "power": {
         "poweron": {
-          "video": "power/carrier_power_off.mp4"
+          "video": "app://operatorresources/resources/power/latam_power_on.mp4"
         },
         "poweroff": {
           "image": "power/mozilla.png"
