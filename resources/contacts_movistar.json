@@ -69,6 +69,34 @@
       }
     ]
   },
+    {
+    "name": [
+      "Test name"
+    ],
+    "givenName": [
+      "Test givenName"
+    ],
+    "tel": [
+      {
+        "type": ["Other"],
+        "value": "612345678"
+      }
+    ]
+  },
+    {
+    "name": [
+      "Test name2"
+    ],
+    "givenName": [
+      "Test givenName2"
+    ],
+    "tel": [
+      {
+        "type": ["Other"],
+        "value": "666555666"
+      }
+    ]
+  },
   {
     "name": [
       "Inf. 11822"
