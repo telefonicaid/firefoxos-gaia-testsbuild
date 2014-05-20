@@ -90,7 +90,7 @@
           "video": "app://operatorresources/resources/power/latam_power_on.mp4"
         },
         "poweroff": {
-          "image": "power/mozilla.png"
+          "image": "app://operatorresources/resources/power/latam_power_on.mp4"
         }
       },
       "keyboard": "resources/keyboard_movistar.json",
