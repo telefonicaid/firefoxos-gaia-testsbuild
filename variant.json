@@ -87,10 +87,10 @@
       "wallpaper": "resources/customize.jpg",
       "power": {
         "poweron": {
-          "video": "resources/power/latam_power_on.mp4"
+          "video": "resources/Power_on_test.mp4"
         },
         "poweroff": {
-          "image": "resources/power/latam_power_on.png"
+          "image": "resources/Power_off_test.png"
         }
       },
       "keyboard": "resources/keyboard_movistar.json",
