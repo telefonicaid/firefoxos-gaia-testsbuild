@@ -32,13 +32,13 @@
       },
     "operatorResourcesLatam":
       {
-        "installOrigin": "https://owdstore.hi.inet",
-        "manifestURL": "https://owdstore.hi.inet/operRes/latam/operatorResourcesLatam.webapp"
+        "installOrigin": "http://www.openwebdevice.com",
+        "manifestURL": "http://www.openwebdevice.com/operRes/latam/operatorResourcesLatam.webapp"
       },
     "operatorResourcesSpain":
       {
-        "installOrigin": "https://owdstore.hi.inet",
-        "manifestURL": "https://owdstore.hi.inet/operRes/spain/operatorResourcesSpain.webapp"
+        "installOrigin": "http://www.openwebdevice.com",
+        "manifestURL": "http://www.openwebdevice.com/operRes/spain/operatorResourcesSpain.webapp"
       }      
   },
   "operators": [
