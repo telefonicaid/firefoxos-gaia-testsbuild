@@ -32,8 +32,8 @@
       },
     "operatorResourcesLatam":
       {
-        "installOrigin": "http://www.openwebdevice.com",
-        "manifestURL": "http://www.openwebdevice.com/operRes/latam/operatorResourcesLatam.webapp"
+        "installOrigin": "http://owd.tid.es",
+        "manifestURL": "http://owd.tid.es/operRes/latam/operatorResourcesLatam.webapp"
       },
     "operatorResourcesSpain":
       {
