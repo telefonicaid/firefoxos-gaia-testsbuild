@@ -73,7 +73,7 @@
         "path": "resources/Movistar_Mid_ABR_128kbps.ogg",
         "name": "Tono Movistar"
       },
-      "wallpaper": "resources/customize.jpg",
+      "wallpaper": "resources/customize2.png",
       "power": {
         "poweron": {
           "video": "resources/Power_on_test.mp4"
