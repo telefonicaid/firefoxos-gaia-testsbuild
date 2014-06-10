@@ -2,5 +2,5 @@
   "title": "Terra",
   "urlTemplate": "http://buscador.terra.es/Results.aspx?source=Search&query={searchTerms}",
   "suggestionsUrlTemplate": "http://p1.trrsf.com/aut/Suggest.aspx?query={searchTerms}&domain=buscador.terra.es",
-  "iconUrl": "resources/ico-terra.png"
+  "iconPath": "resources/ico-terra.png"
 }]
