@@ -87,8 +87,10 @@
       "known_networks": "resources/known_networks_movistar.json",
       "data_ftu": true,
       "nfc": "resources/nfc_movistar.json",
-      "sms": "resources/sms_movistar.json"
-      "topsites": "resources/topsites_movistar.json"
+      "sms": "resources/sms_movistar.json",
+      "topsites": "resources/topsites_movistar.json",
+      "search": "resources/search_movistar.json",
+      "default_search": "resources/default_search.json"
     },
     {
       "id": "venezuela",
