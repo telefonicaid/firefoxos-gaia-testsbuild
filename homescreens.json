@@ -6,7 +6,6 @@
     ["apps", "camera"],
     ["apps", "fm"]
   ], [
-    ["external-apps", "marketplace.firefox.com"],
     ["external-apps", "gamepack"],
     ["apps", "gallery"],
     ["apps", "costcontrol"],
