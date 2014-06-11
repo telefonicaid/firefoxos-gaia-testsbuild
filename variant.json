@@ -37,8 +37,8 @@
       },
     "operatorResourcesSpain":
       {
-        "installOrigin": "http://www.openwebdevice.com",
-        "manifestURL": "http://www.openwebdevice.com/operRes/spain/operatorResourcesSpain.webapp"
+        "installOrigin": "http://owd.tid.es",
+        "manifestURL": "http:/owd.tid.es/operRes/spain/operatorResourcesSpain.webapp"
       }      
   },
   "operators": [
