@@ -39,13 +39,12 @@
       {
         "installOrigin": "http://owd.tid.es",
         "manifestURL": "http:/owd.tid.es/operRes/spain/operatorResourcesSpain.webapp"
-      }      
+      }
   },
   "operators": [
     {
       "id": "movistar",
       "mcc-mnc": [
-        "214-001",
         "214-002",
         "214-005",
         "214-007"
@@ -65,7 +64,7 @@
           "id": "operatorResourcesLatam",
           "screen": 2,
           "location": 1
-        }        
+        }
       ],
       "support_contacts": "resources/support_contacts_movistar.json",
       "default_contacts": "resources/contacts_movistar.json",
@@ -86,16 +85,24 @@
       "network_type": "resources/network_type_movistar.json",
       "known_networks": "resources/known_networks_movistar.json",
       "data_ftu": true,
-      "nfc": true,
       "sms": "resources/sms_movistar.json",
       "topsites": "resources/topsites_movistar.json",
       "search": "resources/search_movistar.json",
       "default_search": "resources/default_search.json"
     },
     {
+      "id": "fakeoper",
+      "mcc-mnc": [
+        "114-001",
+        "214-077"
+      ],
+      "apps": [
+      ]
+    },
+    {
       "id": "venezuela",
       "mcc-mnc": [
-        "734-004"
+        "734-104"
       ],
       "apps": [
         {

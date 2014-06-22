@@ -6,6 +6,11 @@
     ["apps", "camera"],
     ["apps", "fm"]
   ], [
+      ["apps/collection/collections", "social"],
+      ["apps/collection/collections", "games"],
+      ["apps/collection/collections", "music"],
+      ["apps/collection/collections", "showbiz"]
+  ], [
     ["external-apps", "gamepack"],
     ["apps", "gallery"],
     ["apps", "costcontrol"],
