@@ -1,5 +1,5 @@
 APP_DIR=external-apps
-PRELOAD_URL=https://raw.github.com/yurenju/gaia-preload-app/master/preload.py
+PRELOAD_URL=https://raw.githubusercontent.com/yurenju/gaia-preload-app/master/preload.py
 PRELOAD_FILE=preload.py
 
 apps:

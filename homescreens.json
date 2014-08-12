@@ -1,23 +1,24 @@
 {"homescreens": [
   [
-    ["apps", "communications", "dialer"],
-    ["apps", "sms"],
-    ["apps", "browser"],
-    ["apps", "camera"],
-    ["apps", "fm"]
+      ["apps", "sms"],
+      ["apps", "communications", "contacts"],
+      ["apps", "browser"],
+      ["apps", "marketplace.firefox.com"],
+      ["apps", "camera"]
   ], [
-    ["external-apps", "gamepack"],
-    ["apps", "gallery"],
-    ["apps", "costcontrol"],
-    ["apps", "settings"],
-    ["apps", "email"],
-    ["apps", "calendar"],
-    ["apps", "communications", "contacts"],
-    ["external-apps", "tuenti"],
-    ["external-apps", "mimovistar"]
+      ["apps", "communications", "dialer"],
+      ["apps/collection/collections", "games"],
+      ["apps/collection/collections", "music"]
   ], [
-    ["apps", "music"],
-    ["apps", "video"],
-    ["apps", "clock"]
+      ["apps/collection/collections", "social"],
+      ["apps", "gallery"],
+      ["apps", "music"],
+      ["apps", "video"],
+      ["apps", "fm"],
+      ["apps", "settings"],
+      ["apps", "clock"],
+      ["apps", "email"],
+      ["apps", "calendar"],
+      ["apps", "costcontrol"]
   ]
 ]}
