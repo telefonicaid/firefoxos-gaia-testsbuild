@@ -1,27 +1,9 @@
 {
   "apps": {
-    "Twitter":
-      {
-        "origin": "https://mobile.twitter.com",
-        "manifestURL": "https://mobile.twitter.com/cache/twitter.webapp",
-        "installOrigin": "https://marketplace.firefox.com"
-      },
-    "Facebook":
-      {
-        "origin": "http://m.facebook.com",
-        "manifestURL": "http://m.facebook.com/openwebapp/manifest.webapp",
-        "installOrigin": "https://marketplace.firefox.com"
-      },
     "Wikipedia":
       {
         "origin": "https://bits.wikimedia.org",
         "manifestURL": "https://bits.wikimedia.org/WikipediaMobileFirefoxOS/manifest.webapp",
-        "installOrigin": "https://marketplace.firefox.com"
-      },
-    "Accuweather":
-      {
-        "origin": "http://m.accuweather.com",
-        "manifestURL": "http://m.accuweather.com/mozilla.webapp",
         "installOrigin": "https://marketplace.firefox.com"
       },
     "Calculator":
@@ -30,21 +12,23 @@
         "installOrigin": "https://marketplace.firefox.com",
         "manifestURL": "https://marketplace.firefox.com/app/9f96ce77-5b2d-42ca-a0d9-10a933dd84c4/manifest.webapp"
       },
+    "Sudoku":
+      {
+        "origin": "app://sudoku",
+        "installOrigin": "http://owd.tid.es",
+        "manifestURL": "http://owd.tid.es/store/packages/9a379e01c540e90e6ecf5fd126943e14.webapp"
+      },
     "operatorResourcesLatam":
       {
         "installOrigin": "http://owd.tid.es",
         "manifestURL": "http://owd.tid.es/operRes/latam/operatorResourcesLatam.webapp"
-      },
-    "operatorResourcesSpain":
-      {
-        "installOrigin": "http://owd.tid.es",
-        "manifestURL": "http:/owd.tid.es/operRes/spain/operatorResourcesSpain.webapp"
       }
   },
   "operators": [
     {
       "id": "movistar",
       "mcc-mnc": [
+        "214-001",
         "214-002",
         "214-005",
         "214-007"
@@ -61,9 +45,12 @@
           "location": 0
         },
         {
-          "id": "operatorResourcesLatam",
-          "screen": 2,
-          "location": 1
+          "id": "Sudoku",
+          "screen": 0,
+          "location": 0
+        },
+        {
+          "id": "operatorResourcesLatam"
         }
       ],
       "support_contacts": "resources/support_contacts_movistar.json",
@@ -75,7 +62,7 @@
       "wallpaper": "resources/customize2.png",
       "power": {
         "poweron": {
-          "video": "resources/Power_on_test.mp4"
+          "image": "app://operatorresources/resources/power/latam_power_on.png"
         },
         "poweroff": {
           "image": "resources/Power_off_test.png"
@@ -88,49 +75,9 @@
       "sms": "resources/sms_movistar.json",
       "topsites": "resources/topsites_movistar.json",
       "search": "resources/search_movistar.json",
-      "default_search": "resources/default_search.json"
-    },
-    {
-      "id": "fakeoper",
-      "mcc-mnc": [
-        "114-001",
-        "214-077"
-      ],
-      "apps": [
-      ]
-    },
-    {
-      "id": "venezuela",
-      "mcc-mnc": [
-        "734-104"
-      ],
-      "apps": [
-        {
-          "id": "Twitter",
-          "screen": 1,
-          "location": 2
-        },
-        {
-          "id": "Facebook",
-          "screen": 1,
-          "location": 3
-        },
-        {
-          "id": "Accuweather",
-          "screen": 2,
-          "location": 1
-        },
-		{
-          "id": "Wikipedia",
-          "screen": 2,
-          "location": 0
-        }
-      ],
-      "ringtone": {
-        "path": "resources/ringer_dream_theme.ogg",
-        "name": "Tono Vivo"
-      },
-      "wallpaper": "resources/customize2.png"
+      "default_search": "resources/default_search.json",
+      "data_roaming": true,
+      "nfc": true
     }
   ]
 }
