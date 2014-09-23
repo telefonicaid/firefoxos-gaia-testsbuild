@@ -8,8 +8,7 @@
   ], [
       ["apps/collection/collections", "social"],
       ["apps/collection/collections", "games"],
-      ["apps/collection/collections", "music"],
-      ["apps/collection/collections", "showbiz"]
+      ["apps/collection/collections", "music"]
   ], [
     ["external-apps", "gamepack"],
     ["apps", "gallery"],

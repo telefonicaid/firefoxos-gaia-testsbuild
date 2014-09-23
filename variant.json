@@ -74,6 +74,7 @@
       "data_ftu": true,
       "sms": "resources/sms_movistar.json",
       "topsites": "resources/topsites_movistar.json",
+      "bookmarks": "resources/bookmarks_movistar.json",
       "search": "resources/search_movistar.json",
       "default_search": "resources/default_search.json",
       "data_roaming": true,
