@@ -2,8 +2,8 @@
   "topSites": [
     {
       "title": "Movistar",
-      "uri": "http://www.movistar.es",
-      "iconPath": "resources/movistar.ico"
+      "url": "http://www.movistar.es",
+      "tilePath": "resources/movistar.ico"
     }
   ]
 }
