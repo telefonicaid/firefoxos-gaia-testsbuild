@@ -2,7 +2,6 @@
   [
     ["apps", "communications", "dialer"],
     ["apps", "sms"],
-    ["apps", "browser"],
     ["apps", "camera"],
     ["apps", "fm"]
   ], [
